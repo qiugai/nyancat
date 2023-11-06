@@ -1,5 +1,16 @@
 Nyancat is a clone of cat, focused on fun!
 
+TO BUILD:
+
+git clone <ssh repo link>
+
+cd nynacat/
+
+cargo build
+
+./run.sh <put args here>
+
+
 --- Give nyancat a string or a filepath ---
 String:
     - $./nyancat "Hello World!"

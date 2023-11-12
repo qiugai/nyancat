@@ -1,39 +1,56 @@
+# Nyancat
 Nyancat is a clone of cat, focused on fun!
 
-TO BUILD:
+## TO BUILD:
+Clone the repository. 
 
-git clone <ssh repo link>
-
+'''
 cd nynacat/
 
 cargo build
+'''
+That's it! To run use the run.sh script.
 
-./run.sh <put args here>
+'''
+./run.sh <args>
+'''
 
+## EXAMPLES:
+Give nyancat a string or a filepath
 
---- Give nyancat a string or a filepath ---
 String:
-    - $./nyancat "Hello World!"
-    -- Hello World!
-
+'''
+./nyancat "Hello World!"
+*Hello World!*
+'''
 File Path:
-    - $./nyancat /home/jeff/coolfile.txt
-    -- Man, this file is so cool!
+'''
+./nyancat /home/jeff/coolfile.txt
+*Man, this file is so cool!*
+'''
 
---- Reverse input (-r | --reverse) ---
-    - $./nyancat --reverse racecar
-    -- racecar
+Reverse the given input: [-r | --reverse]
+'''
+./nyancat --reverse racecar
+*racecar*
+'''
 
---- Space out input (-s | --spaced) ---
-    - $./nyancat --spaced small
-    -- s m a l l
+Spaced out given input: [-s | --spaced]
+'''
+./nyancat --spaced small
+*s m a l l*
+'''
 
---- Color print input (-c <COLOR> | --color <COLOR>) {red, blue, green, yellow, purple, cyan, white} ---
-    - $./nyancat --color red
-    -- Just imagine I'm red...
+Color print given input: [-c <COLOR> | --color <COLOR>] colors={red, blue, green, yellow, purple, cyan, white}
+'''
+./nyancat --color red
+*Just imagine I'm red...*
+'''
 
-=== TO DO ===
+## TO DO:
 
 Pig Latin Translation:
-     - $./nyancat Hello World!
-    -- Ellohay Orldway!
+'''
+./nyancat Hello World!
+Ellohay Orldway!
+'''

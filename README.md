@@ -32,7 +32,7 @@ File Path:
 Reverse the given input: [-r | --reverse]
 ```
 ./nyancat --reverse racecar
- >racecar
+> racecar
 ```
 
 Spaced out given input: [-s | --spaced]

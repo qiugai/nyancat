@@ -21,30 +21,30 @@ Give nyancat a string or a filepath
 String:
 ```
 ./nyancat "Hello World!"
-_Hello World!_
+> Hello World!
 ```
 File Path:
 ```
 ./nyancat /home/jeff/coolfile.txt
-_Man, this file is so cool!_
+> Man, this file is so cool!
 ```
 
 Reverse the given input: [-r | --reverse]
 ```
 ./nyancat --reverse racecar
-_racecar_
+ >racecar
 ```
 
 Spaced out given input: [-s | --spaced]
 ```
 ./nyancat --spaced small
-_s m a l l_
+> s m a l l
 ```
 
 Color print given input: [-c <COLOR> | --color <COLOR>] colors={red, blue, green, yellow, purple, cyan, white}
 ```
 ./nyancat --color red
-_Just imagine I'm red..._
+> Just imagine I'm red...
 ```
 
 ## TO DO:
@@ -52,5 +52,5 @@ _Just imagine I'm red..._
 Pig Latin Translation:
 ```
 ./nyancat Hello World!
-Ellohay Orldway!
+> Ellohay Orldway!
 ```

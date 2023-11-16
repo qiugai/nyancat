@@ -27,7 +27,7 @@ struct Args {
     #[arg(short, long, default_value_t = String::new())]
     color: String,
 
-    /// Translate input to pig latin
+    // /// Translate input to pig latin
     //#[arg(short, long, action)]
     //piglatin: bool
 }

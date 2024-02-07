@@ -129,8 +129,3 @@ fn rainbow_print(s: String){
     }
     print!("\n");
 }
-
-// translates input string into pig latin
-// fn pig_latin_translate(s: &str) -> String {
-
-// }

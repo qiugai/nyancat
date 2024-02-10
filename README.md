@@ -1,5 +1,5 @@
 # Nyancat
-Nyancat is a clone of echo and cat, focused on fun!
+Nyancat is a clone of echo and cat, but written in Rust and a little goofy.
 
 ## TO BUILD:
 Clone the repository. 

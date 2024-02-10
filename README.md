@@ -46,11 +46,3 @@ Color print given input: [-c <COLOR> | --color <COLOR>] colors={red, blue, green
 ./nyancat --color red
 > Just imagine I'm red...
 ```
-
-## TO DO:
-
-Pig Latin Translation:
-```
-./nyancat Hello World!
-> Ellohay Orldway!
-```

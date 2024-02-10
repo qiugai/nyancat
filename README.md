@@ -1,5 +1,5 @@
 # Nyancat
-Nyancat is a clone of cat, focused on fun!
+Nyancat is a clone of echo and cat, focused on fun!
 
 ## TO BUILD:
 Clone the repository. 

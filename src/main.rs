@@ -99,7 +99,7 @@ fn main() {
         "cyan"=>println!("{}", user_input.cyan()),
         "white"=>println!("{}", user_input.white()),
         "rainbow"=>rainbow_print(user_input),
-        _=>println!("{}", user_input)
+        _=>print!("{}", user_input)
     }   
 }
 
@@ -124,5 +124,4 @@ fn rainbow_print(s: String){
             i+=1;
         }
     }
-    print!("\n");
 }

@@ -1,1 +1,1 @@
-sudo cp /target/release/nyancat /usr/local/bin/
+sudo cp ./target/release/nyancat /usr/local/bin/

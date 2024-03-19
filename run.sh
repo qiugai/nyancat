@@ -1,2 +1,1 @@
-cargo build
-./target/debug/nyancat "$@"
+cargo build --release && ./target/release/nyancat "$@"

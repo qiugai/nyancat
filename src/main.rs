@@ -124,4 +124,5 @@ fn rainbow_print(s: String){
             i+=1;
         }
     }
+    println!();
 }

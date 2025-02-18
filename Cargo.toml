@@ -7,6 +7,6 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "4.3.17", features = ["derive"] }
-colored = "2"
+colored = "3"
 
 # credit to Zak Holliman for writing default arm of the match statement!

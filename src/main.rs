@@ -45,7 +45,7 @@ fn get_current_working_dir() -> String {
 
 fn main() {
     let args = Args::parse();
-
+    
     let mut user_input;
     let mut dir = get_current_working_dir();
     dir.push('/');
@@ -67,6 +67,7 @@ fn main() {
     else{
         // user gave string
         user_input = args.input;
+        user_input.push_str("\n");
     }
     // terminate program if given string/file is null
     if user_input.is_empty(){
@@ -124,5 +125,4 @@ fn rainbow_print(s: String){
             i+=1;
         }
     }
-    println!();
 }

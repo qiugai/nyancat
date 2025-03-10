@@ -3,4 +3,6 @@ if test -f /usr/local/bin/nyancat; then
     sudo rm /usr/local/bin/nyancat
 fi
 
+cargo build --release
+
 sudo cp ./target/release/nyancat /usr/local/bin/

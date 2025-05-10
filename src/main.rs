@@ -65,7 +65,6 @@ fn main() {
     } else {
         // User gave input string.
         user_input = args.input;
-        user_input.push('\n');
     }
     // Terminate program if given string/file is null.
     if user_input.is_empty() {
@@ -89,15 +88,15 @@ fn main() {
 
     // Switch statement to print input in colors.
     match args.color.to_lowercase().as_str() {
-        "red" => println!("{}", user_input.red()),
-        "blue" => println!("{}", user_input.blue()),
-        "green" => println!("{}", user_input.green()),
-        "yellow" => println!("{}", user_input.yellow()),
-        "purple" => println!("{}", user_input.purple()),
-        "cyan" => println!("{}", user_input.cyan()),
-        "white" => println!("{}", user_input.white()),
+        "red" => print!("{}", user_input.red()),
+        "blue" => print!("{}", user_input.blue()),
+        "green" => print!("{}", user_input.green()),
+        "yellow" => print!("{}", user_input.yellow()),
+        "purple" => print!("{}", user_input.purple()),
+        "cyan" => print!("{}", user_input.cyan()),
+        "white" => print!("{}", user_input.white()),
         "rainbow" => rainbow_print(user_input),
-        _ => println!("{}", user_input),
+        _ => print!("{}", user_input),
     }
 }
 
